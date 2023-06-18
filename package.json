@@ -1,0 +1,23 @@
+{
+  "name": "006---auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "dev": "npm start --workspace=./packages/container & npm start --workspace=./packages/auth & npm start --workspace=./packages/marketing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galamo/devGeekWeek2023_MFS_Complete.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galamo/devGeekWeek2023_MFS_Complete/issues"
+  },
+  "homepage": "https://github.com/galamo/devGeekWeek2023_MFS_Complete#readme"
+}
